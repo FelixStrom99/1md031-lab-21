@@ -3,55 +3,59 @@
 <head>
     <title>BurgerOnline</title>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <header>
-    <h1>Welcome to BurgerHeaven Online!</h1>
+    <div class="container">
+        <h1 id="header-text">Welcome to BurgerHeaven Online!</h1>
+        <img id="header-background" src="https://thatsup.se/content/img/place/t/u/tugg-burgers-uppsala-0.jpg">
+    </div>
+
 </header>
 <main>
     <section id="burgers">
         <h3>Select burger</h3>
         <p>This is where you execute burger selection</p>
-        <br>
-        <div id="grilled" style="float:left">
-            <figure>
-                <h4>The Fire Burger</h4>
-                <img src="grillad_burgare.jpeg" alt="Span" title="Grilled Burger" style="width:200px; height:200px;">
-                <ul>
-                    <li>Kött</li>
-                    <li>Bröd</li>
-                    <li>Tomat</li>
-                </ul>
-            </figure>
-        </div>
-        <div id="nacho" style="float:left">
-            <figure>
-                <h4>The Nacho Burger</h4>
-                <img src="nacho_burger.jpeg" alt="Span" title="Nacho Burger"
-                     style="width:200px; height:200px;">
-                <ul>
-                    <li>Kött</li>
-                    <li>Bröd</li>
-                    <li>Nachos</li>
-                    <li>Jalapenos</li>
-                </ul>
-            </figure>
+        <div class="wrapper">
+            <div class="grilled">
+                <figure>
+                    <h2>The Fire Burger</h2>
+                    <img class="bild-burger" src="grillad_burgare.jpeg" alt="Span" title="Grilled Burger">
+                    <ul>
+                        <li>Kött</li>
+                        <li>Bröd</li>
+                        <li>Tomat</li>
+                    </ul>
+                </figure>
+            </div>
+            <div class="nacho">
+                <figure>
+                    <h2>The Nacho Burger</h2>
+                    <img class="bild-burger" src="nacho_burger.jpeg" alt="Span" title="Nacho Burger">
+                    <ul>
+                        <li>Kött</li>
+                        <li>Bröd</li>
+                        <li>Nachos</li>
+                        <li>Jalapenos</li>
+                    </ul>
+                </figure>
 
+            </div>
+            <div class="vegan">
+                <figure>
+                    <h2>The Vegan Burger</h2>
+                    <img class="bild-burger" src="vegan_burger.jpeg" alt="Span" title="Vegan Burger">
+                    <ul>
+                        <li>Något veganskt i dunno</li>
+                        <li>vegansk Bröd</li>
+                        <li>vegansk Tomat</li>
+                    </ul>
+                </figure>
+            </div>
         </div>
-        <div id="vegan" style="clear:right">
-            <figure>
-                <h4>The Vegan Burger</h4>
-                <img src="vegan_burger.jpeg" alt="Span" title="Vegan Burger"
-                     style="width:200px; height:200px;">
-                <ul>
-                    <li>Något veganskt i dunno</li>
-                    <li>vegansk Bröd</li>
-                    <li>vegansk Tomat</li>
-                </ul>
-            </figure>
-        </div>
+
     </section>
-    <br>
     <section id="contact">
         <h3>Customer information</h3>
         <form>
