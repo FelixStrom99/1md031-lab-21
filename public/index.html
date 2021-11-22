@@ -1,115 +1,17 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <title>BurgerOnline</title>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<header>
-    <div class="container">
-        <h1 id="header-text">Welcome to BurgerHeaven Online!</h1>
-        <img id="header-background" src="https://thatsup.se/content/img/place/t/u/tugg-burgers-uppsala-0.jpg">
-    </div>
-
-</header>
-<main>
-    <section id="burgers">
-        <h3>Select burger</h3>
-        <p>This is where you execute burger selection</p>
-        <div class="wrapper">
-            <div class="grilled">
-                <figure>
-                    <h2>The Fire Burger</h2>
-                    <img class="bild-burger" src="grillad_burgare.jpeg" alt="Span" title="Grilled Burger">
-                    <ul>
-                        <li>Kött</li>
-                        <li>Bröd</li>
-                        <li>Tomat</li>
-                    </ul>
-                </figure>
-            </div>
-            <div class="nacho">
-                <figure>
-                    <h2>The Nacho Burger</h2>
-                    <img class="bild-burger" src="nacho_burger.jpeg" alt="Span" title="Nacho Burger">
-                    <ul>
-                        <li>Kött</li>
-                        <li>Bröd</li>
-                        <li>Nachos</li>
-                        <li>Jalapenos</li>
-                    </ul>
-                </figure>
-
-            </div>
-            <div class="vegan">
-                <figure>
-                    <h2>The Vegan Burger</h2>
-                    <img class="bild-burger" src="vegan_burger.jpeg" alt="Span" title="Vegan Burger">
-                    <ul>
-                        <li>Något veganskt i dunno</li>
-                        <li>vegansk Bröd</li>
-                        <li>vegansk Tomat</li>
-                    </ul>
-                </figure>
-            </div>
-        </div>
-
-    </section>
-    <section id="contact">
-        <h3>Customer information</h3>
-        <form>
-            <p>
-                <input type="radio" id="male" name="drone" value="male"
-                       checked="checked">
-                <label for="male">Male</label><br>
-
-                <input type="radio" id="female" name="drone" value="female">
-                <label for="female">Female</label><br>
-
-                <input type="radio" id="noanswer" name="drone" value="noanswer">
-                <label for="noanswer">Don't want to say</label>
-            </p>
-            <p>
-                <label for="fullname">Full name</label><br>
-                <input type="text" id="fullname" name="fn" required="required"
-                       placeholder="First- and last name">
-            </p>
-            <p>
-                <label for="email">E-mail</label><br>
-                <input type="email" id="email" name="em" required="required"
-                       placeholder="E-mail address">
-            </p>
-            <p>
-                <label for="street">Street name</label><br>
-                <input type="text" id="street" name="ln" placeholder="Street name">
-            </p>
-            <p>
-                <label for="house">House number</label><br>
-                <input type="number" id="house" name="ln" placeholder="House number">
-            </p>
-            <p>
-                <label for="payment">Recipient</label><br>
-                <select id="payment" name="pay">
-                    <option selected="selected">Card</option>
-                    <option>Cash</option>
-                    <option>Bitcoin</option>
-                    <option>Invoice</option>
-                </select>
-            </p>
-            <p>
-                <label for="other">Other information</label><br>
-                <textarea id="other"></textarea>
-            </p>
-            <button type="submit">
-                Send order!
-            </button>
-        </form>
-    </section>
-</main>
-<hr>
-<footer>
-    <p>Very nice maker made this (Felix)</p>
-</footer>
-</body>
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>

@@ -4,19 +4,39 @@ Before you submit the final version of your labs, make sure that your project fu
 
 ## 00 Introduction
 
-- [ ] Install an IDE on your system
+- [x] Install an IDE on your system
 
 ## 01 Git
 
-- [ ] Fork and clone the 1md031-lab-21 repository
+- [x] Fork and clone the 1md031-lab-21 repository
 
 ## 03 CSS
 
 The style.css file contains:
-- [ ] A rule to make the allergy information bold
-- [ ] Different text and background color for the two different sections (burger selection and customer information)
-- [ ] Change the cursor when hovering over the order button
-- [ ] Adds margins to the sections and the order button
-- [ ] Add a border to the two sections
-- [ ] Create a header that places an image behind the headline
-- [ ] Use a grid layout for the burger selection section
+- [x] A rule to make the allergy information bold
+- [x] Different text and background color for the two different sections (burger selection and customer information)
+- [x] Change the cursor when hovering over the order button
+- [x] Adds margins to the sections and the order button
+- [x] Add a border to the two sections
+- [x] Create a header that places an image behind the headline
+- [x] Use a grid layout for the burger selection section
+
+## 04 JavaScript and Vue
+
+- [x] You have a menu.json file which contains at least three different burgers with respective attributes
+
+Your Home.vue file:
+- [x] ... contains a MenuItem constructor (that is not used)
+- [x] ... loads the information from the menu.json object and inserts the information to the burger selection section
+- [x] ... allows the customer to click in the interactive map to select delivery location
+- [x] ... has an order button that sends the information from the text boxes, the gender, all items on the order, and the delivery location to the server (to be realyed to the dispatcher)
+
+Your Burger.vue component:
+- [x] ... allows adding and removing burgers from the order
+- [x] ... only displays allergy information if relevant (either only if it contains gluten or lactose, or only if it's gluten or lactose free)
+
+Your Dispatcher.vue file:
+- [x] ... shows for every order :
+    - [x] a location on the map
+    - [x] the order information
+    - [x] the customer information

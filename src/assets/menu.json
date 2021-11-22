@@ -1,0 +1,27 @@
+[
+  {
+    "name": "The Fire burger",
+    "kCal": 850,
+    "lactose": true,
+    "gluten": false,
+    "vegan": false,
+    "urlPic": "grillad_burgare.jpeg"
+  },
+  {
+    "name": "The Nacho Burger",
+    "kCal": 950,
+    "lactose": true,
+    "gluten": true,
+    "vegan": false,
+    "urlPic": "nacho_burger.jpeg"
+  },
+  {
+    "name": "The Vegan Burger",
+    "kCal": 550,
+    "lactose": true,
+    "gluten": false,
+    "vegan": true,
+    "urlPic": "vegan_burger.jpeg"
+  }
+]
+
